@@ -12,6 +12,11 @@
     padding: 0;
   }
 
+  body {
+    font-family: sans-serif;
+    background-color: #f9fbfd;
+  }
+
   .container {
     height: 100%;
     padding-top: 30px;
