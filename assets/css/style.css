@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
 
-  
+
   
   html,
   body
@@ -10,6 +10,26 @@
     height: 100%;
     margin: 0;
     padding: 0;
+  }
+
+  .container {
+    height: 100%;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  header {
+    text-align: left;
+    padding: 10px;
+    padding-top: 0px;
+    color: hsl(206, 17%, 28%);
+    font-size: small;
+  }
+  
+  h1:hover {
+    color: #9B36F7;
+    
   }
 
   @media screen and(min-width: 992px){
