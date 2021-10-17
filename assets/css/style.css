@@ -32,6 +32,21 @@
     
   }
 
+  #startBtn {
+    background-color: #9B36F7;
+    color: black;
+    text-align: center;
+    font-weight: 800;
+    border: black solid 4px;
+    min-width: 150;
+    min-height: 50px;
+    opacity: 0.8;
+  }
+  
+  #startBtn:hover {
+    opacity: 1;
+  }
+
   @media screen and(min-width: 992px){
     .card-body {
         flex: 0 0 50%;
