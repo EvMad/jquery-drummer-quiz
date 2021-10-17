@@ -1,4 +1,4 @@
-
+var start = document.querySelector("#startBtn");
 
 // Timer Countdown
 
