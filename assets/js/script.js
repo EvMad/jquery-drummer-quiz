@@ -5,7 +5,7 @@ var start = $("#startBtn");
 var timerEl = $("#countdown");
 
 
-start.addEventListener("click", function() {
+$(document).click(function() {
     var timeLeft = 30;
   
     // Use the `setInterval()` method to call a function to be executed every 1000 milliseconds
