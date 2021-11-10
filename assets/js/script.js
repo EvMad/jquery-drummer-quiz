@@ -1,8 +1,8 @@
-var start = document.querySelector("#startBtn");
+var start = $("#startBtn");
 
 // Timer Countdown
 
-var timerEl = document.querySelector("#countdown");
+var timerEl = $("#countdown");
 
 
 start.addEventListener("click", function() {
