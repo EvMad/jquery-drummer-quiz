@@ -58,6 +58,14 @@ var next = $("nextBtn");
 $("next").on('click', function(e)
   {e.preventDefault();})
 
+  // render question function
+
+  function createQuestionEl(questions) {
+    var qEl = $('<h2>', {id: '#Q'});
+
+    var choices = $([ '#A1', '#A2', '#A3', '#A4' ]).append(questions(questions).choices);
+  }
+
 
 // Timer Countdown
 
