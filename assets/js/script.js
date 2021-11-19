@@ -45,9 +45,19 @@ var questions = [
 
 // on click next question function
 
+//hide next button on load
+function pageLoad() {
+  $("#nextBtn").hide();
+}
+
+//
 var next = $("nextBtn");
 
 
+
+$("next").on('click', function(e)
+  {e.preventDefault();})
+  
 
 // Timer Countdown
 
