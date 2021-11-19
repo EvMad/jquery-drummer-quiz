@@ -57,7 +57,7 @@ var next = $("nextBtn");
 
 $("next").on('click', function(e)
   {e.preventDefault();})
-  
+
 
 // Timer Countdown
 
@@ -65,7 +65,7 @@ var timerEl = $("#countdown");
 
 
 $(document).click(function() {
-    var timeLeft = 30;
+    var timeLeft = 60;
   
     // Use the `setInterval()` method to call a function to be executed every 1000 milliseconds
     var timeInterval = setInterval(function () {
