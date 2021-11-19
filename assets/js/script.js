@@ -43,6 +43,12 @@ var questions = [
             }
 ];
 
+// on click next question function
+
+var next = $("nextBtn");
+
+
+
 // Timer Countdown
 
 var timerEl = $("#countdown");
