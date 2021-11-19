@@ -63,7 +63,7 @@ $("next").on('click', function(e)
   function createQuestionEl(questions) {
     var qEl = $('<h2>', {id: '#Q'});
 
-    var choices = $([ '#A1', '#A2', '#A3', '#A4' ]).append(questions(questions).choices);
+    var choices = $('<li>', {id: [ '#A1', '#A2', '#A3', '#A4' ] }).append(questions(questions).choices);
   }
 
 
