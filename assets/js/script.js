@@ -37,7 +37,7 @@ var questions = [
               correct: 3,
             },
             {
-              question: "Who was the original drummer in George Clinton's Parliamant Funkadelic?",
+              question: "Who was the original drummer in George Clinton's Parliament Funkadelic?",
               choices: [ 'Jerome "Bigfoot" Brailey', 'Ramon "Tiki" Fulwood', 'Calvin Simon', 'Cordell "Boogie" Mosson' ],
               correct: 1,
             }
