@@ -48,14 +48,16 @@ var questions = [
 //hide next button on load
 function pageLoad() {
   $("#nextBtn").hide();
+  $("#try").hide();
 }
 
 //
 var next = $("nextBtn");
+var tryAgain = $("try");
 
 
 
-$("next").on('click', function(e)
+$(next).on('click', function(e)
   {e.preventDefault();})
 
   // render question function
@@ -72,14 +74,19 @@ $("next").on('click', function(e)
       //random question text appears
 
       $(qEl).children('span').text(Math.random(questions.question));
+      $(next).hide();
 
       // if else for correct answer
         if
-        $(choices).on('click').is(questions.correct)
+        $(choices).on('click').is(questions.correct),
 
         //then alert user to hit next button for new question
+        $(next).show(),
 
-        
+        else
+
+        $(tryAgain).show();
+
 
 
     })
