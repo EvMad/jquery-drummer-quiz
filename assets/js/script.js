@@ -77,7 +77,7 @@ $(next).on('click', function(e)
       $(next).hide();
 
       // if else for correct answer
-        if($(choices).on('click').is(questions.correct))
+        if($(choices).on('click') == (questions.correct))
         
 
         //then alert user to hit next button for new question
