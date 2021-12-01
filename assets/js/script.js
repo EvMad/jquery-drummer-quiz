@@ -77,15 +77,15 @@ $(next).on('click', function(e)
       $(next).hide();
 
       // if else for correct answer
-        if
-        $(choices).on('click').is(questions.correct),
+        if($(choices).on('click').is(questions.correct))
+        
 
         //then alert user to hit next button for new question
-        $(next).show(),
+        $(next).show();
 
         else
 
-        $(tryAgain).show();
+        ($(tryAgain).show());
 
 
 
