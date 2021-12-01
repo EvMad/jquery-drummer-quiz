@@ -64,7 +64,29 @@ $("next").on('click', function(e)
     var qEl = $('<h2>', {id: '#Q'});
 
     var choices = $('<li>', {id: [ '#A1', '#A2', '#A3', '#A4' ] }).append(questions(questions).choices);
-  }
+
+    //write if/else statements for choosing correct answer button
+
+    $(start).on('click', function() {
+
+      //random question text appears
+
+      $(qEl).children('span').text(Math.random(questions.question));
+
+      // if else for correct answer
+        if
+        $(choices).on('click').is(questions.correct)
+
+        //then alert user to hit next button for new question
+
+        
+
+
+    })
+
+
+
+  };
 
 
 // Timer Countdown
