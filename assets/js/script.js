@@ -52,8 +52,8 @@ function pageLoad() {
 }
 
 //
-var next = $("nextBtn");
-var tryAgain = $("try");
+var next = $("#nextBtn");
+var tryAgain = $("#try");
 
 
 
@@ -74,18 +74,20 @@ $(next).on('click', function(e)
       //random question text appears
 
       $(qEl).children('span').text(Math.random(questions.question));
-      $(next).hide();
+      $(next).hide();  //redundant?
+
+      $(choices).text(questions.choices);
 
       // if else for correct answer
         if($(choices).on('click') == (questions.correct))
         
 
         //then alert user to hit next button for new question
-        $(next).show();
+        {$(next).show();}
 
         else
 
-        ($(tryAgain).show());
+        {($(tryAgain).show())};
 
 
 
