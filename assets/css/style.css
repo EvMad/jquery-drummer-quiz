@@ -49,6 +49,13 @@
     color: hsl(206, 17%, 28%);
     font-size: small;
   }
+
+  .card {
+    text-align: center;
+    border: 5px;
+    border-color: #9B36F7;
+    border-radius: 20%;
+  }
   
   h1:hover {
     color: #9B36F7;
