@@ -65,7 +65,7 @@ $(next).on('click', function(e)
   function createQuestionEl(questions) {
     var qEl = $('<h2>', {id: '#Q'});
 
-    var choices = $('<li>', {id: [ '#A1', '#A2', '#A3', '#A4' ] }).append(questions(questions).choices);
+    var currentChoices = $('<li>', {id: [ '#A1', '#A2', '#A3', '#A4' ] });
 
     //write if/else statements for choosing correct answer button
 
@@ -80,7 +80,7 @@ $(next).on('click', function(e)
       var currentQuestion = questions[Math.floor(Math.random() * questions.length)];
 
       $(qEl).text(currentQuestion);
-      $(choices).text(currentQuestion.choices);
+      $(currentChoices).text(currentQuestion.choices);
 
       //random question text appears
 
