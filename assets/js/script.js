@@ -71,6 +71,8 @@ $(next).on('click', function(e)
 
     $(start).on('click', function() {
 
+      console.log("clicked Start");
+
       $(start).hide();
 
       // random question from array
