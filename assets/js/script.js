@@ -77,6 +77,9 @@ $(next).on('click', function(e)
 
       // random question from array
 
+      var currentQuestion = questions[Math.floor(Math.random() * questions.length)];
+
+      $(qEl).text(currentQuestion);
       
 
       //random question text appears
