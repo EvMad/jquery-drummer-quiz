@@ -95,23 +95,25 @@ $(next).on('click', function(e)
       
 
       // if else for correct answer
-        if($(choices).on('click') == (questions.correct))
+        // if($(choices).on('click') == (questions.correct))
         
 
         //then alert user to hit next button for new question
-        {$(next).show();}
+        // {$(next).show();}
 
-        else
+        // else
 
-        {($(tryAgain).show())};
+        // {($(tryAgain).show())};
 
 
 
-    })
+    });
 
 
 
   };
+
+  
 
 
 // Timer Countdown
