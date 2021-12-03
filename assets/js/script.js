@@ -46,10 +46,15 @@ var questions = [
 // on click next question function
 
 //hide next button on load
-function pageLoad() {
+
+$(document).ready(function() {
+
   $("#nextBtn").hide();
   $("#try").hide();
-}
+
+});
+
+
 
 //
 var next = $("#nextBtn");
