@@ -84,10 +84,10 @@ $(next).on('click', function(e)
 
       //random question text appears
 
-      $(qEl).children('span').text(Math.random(questions.question));
+      // $(qEl).children('span').text(Math.random(questions.question));
       $(next).hide();  //redundant?
 
-      $(choices).text(questions.choices);
+      
 
       // if else for correct answer
         if($(choices).on('click') == (questions.correct))
