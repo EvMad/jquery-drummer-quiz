@@ -114,6 +114,7 @@ $(next).on('click', function(e)
   };
 
   
+  createQuestionEl();
 
 
 // Timer Countdown
