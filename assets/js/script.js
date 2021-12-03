@@ -67,7 +67,7 @@ $(next).on('click', function(e)
 
   // render question function
 
-  function createQuestionEl(questions) {
+  function createQuestionEl() {
     var qEl = $('<h2>', {id: '#Q'});
 
     var currentChoices = $('<li>', {id: [ '#A1', '#A2', '#A3', '#A4' ] });
