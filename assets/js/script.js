@@ -73,6 +73,10 @@ $(next).on('click', function(e)
 
       $(start).hide();
 
+      // random question from array
+
+      
+
       //random question text appears
 
       $(qEl).children('span').text(Math.random(questions.question));
