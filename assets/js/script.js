@@ -24,7 +24,7 @@ var questions = [
             {
               question: "This hugely influential jazz drummer was married four times, known to use heroin, continued to play drums after losing his hearing, and ultimately died of lung cancer:",
               choices: [ 'Max Roach', 'Art Blakey', 'Tony Willams', 'Gene Krupa' ],
-              correct: 1
+              correct: 1,
             },
             {
               question: "This drummer has a long history of playing drums for Slayer at times when the band's more well known drummer(s) were not in the band:",
