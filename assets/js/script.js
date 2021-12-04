@@ -1,5 +1,4 @@
 var start = $("#startBtn");
-var timerEl = $("#countdown");
 
 var questions = [
             {
@@ -44,28 +43,26 @@ var questions = [
             }
 ];
 
-// on click next question function
+
+var next = $("#nextBtn");
+var tryAgain = $("#try");
+var correct = $("#correct");
 
 //hide next button on load
 
 $(document).ready(function() {
 
-  $("#nextBtn").hide();
-  $("#try").hide();
-  $('#correct').hide();
+  $(next).hide();
+  $(tryAgain).hide();
+  $(correct).hide();
 
 });
 
 
-
-//
-var next = $("#nextBtn");
-var tryAgain = $("#try");
+// $(next).on('click', function(e)
+//   {e.preventDefault();})
 
 
-
-$(next).on('click', function(e)
-  {e.preventDefault();})
 
   // render question function
 
@@ -116,13 +113,13 @@ $(next).on('click', function(e)
 
   };
 
-  correctAnswer();
+  // correctAnswer();
 
 
 // Timer Countdown
 
 
-
+var timerEl = $("#countdown");
 
 $(document).click(function() {
 
