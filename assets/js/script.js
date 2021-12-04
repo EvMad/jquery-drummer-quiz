@@ -91,10 +91,10 @@ $(next).on('click', function(e)
       // $(currentChoices).text(currentQuestion.choices);
 
 
-      $('#A1').text(currentQuestion.choices.0);
-      $('#A2').text(currentQuestion.choices.1);
-      $('#A3').text(currentQuestion.choices.2);
-      $('#A3').text(currentQuestion.choices.3);
+      $('#A1').text(currentQuestion.choices.indexOf(0));
+      $('#A2').text(currentQuestion.choices.indexOf(1));
+      $('#A3').text(currentQuestion.choices.indexOf(2));
+      $('#A3').text(currentQuestion.choices.indexOf(3));
       
 
 
