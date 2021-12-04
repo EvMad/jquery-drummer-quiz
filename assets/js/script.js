@@ -1,4 +1,7 @@
 var start = $("#startBtn");
+var next = $("#nextBtn");
+var tryAgain = $("#try");
+var correct = $("#correct");
 
 var questions = [{
     question: "Who played drums on the original recording of Toto's 'Hold the Line'?",
@@ -43,9 +46,7 @@ var questions = [{
 ];
 
 
-var next = $("#nextBtn");
-var tryAgain = $("#try");
-var correct = $("#correct");
+
 
 //hide next button on load
 
@@ -136,18 +137,18 @@ createQuestionEl();
 
 //write if/else statements for choosing correct answer button
 
-function correctAnswer() {
+// function correctAnswer() {
 
-  var targetElement = $("#answers").click();
+//   var targetElement = $("#answers").click();
 
-  if (targetElement.matches(currentQuestion.correct)) {
-    $(correct).show();
-    createQuestionEl();
-  } else {
-    $(tryAgain).show();
-  }
+//   if (targetElement.matches(currentQuestion.correct)) {
+//     $(correct).show();
+//     createQuestionEl();
+//   } else {
+//     $(tryAgain).show();
+//   }
 
-};
+// };
 
 // correctAnswer();
 
