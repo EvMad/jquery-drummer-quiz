@@ -1,4 +1,5 @@
 var start = $("#startBtn");
+var timerEl = $("#countdown");
 
 var questions = [
             {
@@ -119,10 +120,13 @@ $(next).on('click', function(e)
 
 // Timer Countdown
 
-var timerEl = $("#countdown");
+
 
 
 $(document).click(function() {
+
+  
+
     var timeLeft = 60;
   
     // Use the `setInterval()` method to call a function to be executed every 1000 milliseconds
