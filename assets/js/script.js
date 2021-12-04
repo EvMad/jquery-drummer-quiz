@@ -51,6 +51,7 @@ $(document).ready(function() {
 
   $("#nextBtn").hide();
   $("#try").hide();
+  $('#correct').hide();
 
 });
 
@@ -104,10 +105,16 @@ $(next).on('click', function(e)
     var targetElement = $("#answers").click();
 
     if (targetElement.matches(currentQuestion.correct)) {
-      
+      $("#correct").show();
+    }
+
+    else {
+      $(tryAgain).hide();
     }
 
   };
+
+  correctAnswer();
 
 
 // Timer Countdown
