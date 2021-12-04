@@ -22,7 +22,7 @@ var questions = [
               correct: 1,
             },
             {
-              question: "This hugely influential jazz drummer was married four times, known to use heroin, continued to play drums after losing his hearing, and ultimately died of lung cancer:",
+              question: "This hugely influential jazz drummer was married four times, continued to play drums after losing his hearing, and ultimately died of lung cancer:",
               choices: [ 'Max Roach', 'Art Blakey', 'Tony Willams', 'Gene Krupa' ],
               correct: 1,
             },
