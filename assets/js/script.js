@@ -99,6 +99,16 @@ $(next).on('click', function(e)
 
   //write if/else statements for choosing correct answer button
 
+  function correctAnswer() {
+
+    var targetElement = $("#answers").click();
+
+    if (targetElement.matches(currentQuestion.correct)) {
+      
+    }
+
+  };
+
 
 // Timer Countdown
 
