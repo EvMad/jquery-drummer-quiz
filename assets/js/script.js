@@ -70,9 +70,6 @@ $(next).on('click', function(e)
   function createQuestionEl() {
     var qEl = $('#Q');
 
-    // var currentChoices = $('<li>', {id: [ 'A1', 'A2', 'A3', 'A4' ] });
-
-    //write if/else statements for choosing correct answer button
 
     $(start).on('click', function() {
 
@@ -88,37 +85,19 @@ $(next).on('click', function(e)
 
       //append answer choices to <ul>
 
-      // $(currentChoices).text(currentQuestion.choices);
-
-
       $('#A1').text(currentQuestion.choices[0]);
       $('#A2').text(currentQuestion.choices[1]);
       $('#A3').text(currentQuestion.choices[2]);
       $('#A4').text(currentQuestion.choices[3]);
-      
-
-
-      // if else for correct answer
-        // if($(choices).on('click') == (questions.correct))
-        
-
-        //then alert user to hit next button for new question
-        // {$(next).show();}
-
-        // else
-
-        // {($(tryAgain).show())};
-
 
 
     });
 
-
-
   };
 
-  
   createQuestionEl();
+
+  //write if/else statements for choosing correct answer button
 
 
 // Timer Countdown
