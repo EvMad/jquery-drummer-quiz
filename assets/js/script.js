@@ -17,7 +17,7 @@ var questions = [
               correct: 2,
             },
             {
-              question: "Which Motorhead drummer reportedly rode a hotel elevator naked, walking through the busy hotel lobby without clothes on?",
+              question: "Which Motorhead drummer reportedly rode a hotel elevator naked, walking through the busy hotel lobby nude?",
               choices: [ 'Philthy Animal Taylor', 'Mikkey Dee', 'Lucas Fox', 'Pete Gill' ],
               correct: 1,
             },
