@@ -48,53 +48,6 @@ $(document).click(function () {
   }, 1000);
 });
 
-var questions = [{
-    question: "Who played drums on the original recording of Toto's 'Hold the Line'?",
-    choices: ['Simon Phillips', 'Steve Gadd', 'Marvin "Smitty" Smith', 'Jeff Porcaro'],
-    correct: choices[3],
-  },
-  {
-    question: "Who was the very first drummer in the band Joy Division?",
-    choices: ['Tony Tabac', 'Stephen Morris', 'Terry Mason', 'Steve Brotherdale'],
-    correct: choices[2],
-  },
-  {
-    question: "Who played drums on John Coltrane's album 'A Love Supreme'?",
-    choices: ['Max Roach', 'Tony Willams', 'Elvin Jones', 'Joe Morello'],
-    correct: choices[2],
-  },
-  {
-    question: "Which Motorhead drummer reportedly rode a hotel elevator naked, walking through the busy hotel lobby nude?",
-    choices: ['Philthy Animal Taylor', 'Mikkey Dee', 'Lucas Fox', 'Pete Gill'],
-    correct: choices[1],
-  },
-  {
-    question: "This hugely influential jazz drummer was married four times, continued to play drums after losing his hearing, and ultimately died of lung cancer:",
-    choices: ['Max Roach', 'Art Blakey', 'Tony Willams', 'Gene Krupa'],
-    correct: choices[1],
-  },
-  {
-    question: "This drummer has a long history of playing drums for Slayer at times when the band's more well known drummer(s) were not in the band:",
-    choices: ['John Tempesta', 'Dave Lombardo', 'John Dette', 'Paul Bostaph'],
-    correct: choices[2],
-  },
-  {
-    question: "Who played drums on Meatloaf's hit single 'I'd Do Anything for Love'?",
-    choices: ['Max Weinberg', 'John "Willie" Wilcox', 'Liberty DeVitto', 'John Miceli'],
-    correct: choices[3],
-  },
-  {
-    question: "Who was the original drummer in George Clinton's Parliament Funkadelic?",
-    choices: ['Jerome "Bigfoot" Brailey', 'Ramon "Tiki" Fulwood', 'Calvin Simon', 'Cordell "Boogie" Mosson'],
-    correct: choices[1],
-  }
-];
-
-
-
-
-
-
 
 // $(next).on('click', function(e)
 //   {e.preventDefault();});
@@ -114,6 +67,50 @@ function createQuestionEl() {
 
 
     $(start).hide();
+
+    //define questions array with answers
+
+    var questions = [{
+      question: "Who played drums on the original recording of Toto's 'Hold the Line'?",
+      choices: ['Simon Phillips', 'Steve Gadd', 'Marvin "Smitty" Smith', 'Jeff Porcaro'],
+      correct: choices[3],
+    },
+    {
+      question: "Who was the very first drummer in the band Joy Division?",
+      choices: ['Tony Tabac', 'Stephen Morris', 'Terry Mason', 'Steve Brotherdale'],
+      correct: choices[2],
+    },
+    {
+      question: "Who played drums on John Coltrane's album 'A Love Supreme'?",
+      choices: ['Max Roach', 'Tony Willams', 'Elvin Jones', 'Joe Morello'],
+      correct: choices[2],
+    },
+    {
+      question: "Which Motorhead drummer reportedly rode a hotel elevator naked, walking through the busy hotel lobby nude?",
+      choices: ['Philthy Animal Taylor', 'Mikkey Dee', 'Lucas Fox', 'Pete Gill'],
+      correct: choices[1],
+    },
+    {
+      question: "This hugely influential jazz drummer was married four times, continued to play drums after losing his hearing, and ultimately died of lung cancer:",
+      choices: ['Max Roach', 'Art Blakey', 'Tony Willams', 'Gene Krupa'],
+      correct: choices[1],
+    },
+    {
+      question: "This drummer has a long history of playing drums for Slayer at times when the band's more well known drummer(s) were not in the band:",
+      choices: ['John Tempesta', 'Dave Lombardo', 'John Dette', 'Paul Bostaph'],
+      correct: choices[2],
+    },
+    {
+      question: "Who played drums on Meatloaf's hit single 'I'd Do Anything for Love'?",
+      choices: ['Max Weinberg', 'John "Willie" Wilcox', 'Liberty DeVitto', 'John Miceli'],
+      correct: choices[3],
+    },
+    {
+      question: "Who was the original drummer in George Clinton's Parliament Funkadelic?",
+      choices: ['Jerome "Bigfoot" Brailey', 'Ramon "Tiki" Fulwood', 'Calvin Simon', 'Cordell "Boogie" Mosson'],
+      correct: choices[1],
+    }
+  ];
 
     // random question from array
 
