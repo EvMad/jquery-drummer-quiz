@@ -49,24 +49,11 @@ $(document).click(function () {
 });
 
 
-// $(next).on('click', function(e)
-//   {e.preventDefault();});
+ // render question function
 
-
-
-// render question function
-
-function createQuestionEl() {
+ function createQuestionEl() {
 
   var qEl = $('#Q');
-
-
-  $(start).on('click', function () {
-
-    console.log("clicked Start");
-
-
-    $(start).hide();
 
     //define questions array with answers
 
@@ -126,11 +113,34 @@ function createQuestionEl() {
     $('#A4').text(currentQuestion.choices[3]);
 
 
-  });
+  };
 
-};
+  createQuestionEl();
 
-createQuestionEl();
+
+// $(next).on('click', function(e)
+//   {e.preventDefault();});
+
+
+
+
+
+
+  // $(start).on('click', function () {
+
+  //   console.log("clicked Start");
+
+
+  //   $(start).hide();
+
+  // });
+
+
+   
+
+
+
+
 
 
 
