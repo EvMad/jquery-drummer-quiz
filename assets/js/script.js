@@ -3,6 +3,17 @@ var next = $("#nextBtn");
 var tryAgain = $("#try");
 var correct = $("#correct");
 
+
+//hide buttons/divs on load
+
+$(document).ready(function () {
+
+  $(next).hide();
+  $(tryAgain).hide();
+  $(correct).hide();
+
+});
+
 var questions = [{
     question: "Who played drums on the original recording of Toto's 'Hold the Line'?",
     choices: ['Simon Phillips', 'Steve Gadd', 'Marvin "Smitty" Smith', 'Jeff Porcaro'],
@@ -47,15 +58,7 @@ var questions = [{
 
 
 
-//hide buttons/divs on load
 
-$(document).ready(function () {
-
-  $(next).hide();
-  $(tryAgain).hide();
-  $(correct).hide();
-
-});
 
 
 
