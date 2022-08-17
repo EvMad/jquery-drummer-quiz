@@ -75,6 +75,13 @@
     opacity: 1;
   }
 
+
+/* #Q {
+  color: black;
+  font-size: x-large;
+} */
+
+
   @media screen and(min-width: 992px){
     .card-body {
         flex: 0 0 50%;
