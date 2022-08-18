@@ -86,6 +86,9 @@
     opacity: 1;
   }
 
+  button:hover {
+    color: var(--accent);
+  }
 
 /* #Q {
   color: black;
