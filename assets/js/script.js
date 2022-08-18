@@ -58,21 +58,9 @@ $(document).click(function () {
 //   {e.preventDefault();});
 
 
+// render question function
 
-
-
-
-  $(start).on('click', function () {
-
-    console.log("clicked Start");
-
-
-    $(start).hide();
-
-
- // render question function
-
- function createQuestionEl() {
+function createQuestionEl() {
 
   var qEl = $('#Q');
 
@@ -135,6 +123,17 @@ $(document).click(function () {
 
 
   };
+
+
+  $(start).on('click', function () {
+
+    console.log("clicked Start");
+
+
+    $(start).hide();
+
+
+ 
 
 
     createQuestionEl();
