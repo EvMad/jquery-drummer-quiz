@@ -67,6 +67,10 @@
     font-weight: bold;
     text-align: center;
   }
+
+  .ansList li{
+    padding-bottom: 10px;
+  }
   
   h1:hover {
     color: var(--accent);
