@@ -4,6 +4,9 @@
 
   :root {
     --offWhite:  #f9fbfd;
+    --primary:  hsl(206, 17%, 28%);
+    --black: black;
+    --accent: #9B36F7;
   }
 
   
