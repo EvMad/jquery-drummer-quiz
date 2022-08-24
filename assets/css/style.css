@@ -47,6 +47,14 @@
   left: 0;
 }
 
+.sidebar {
+  width: 25vw;
+  padding-top: 50px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 .column {
   display: flex;
   flex-direction: column;
