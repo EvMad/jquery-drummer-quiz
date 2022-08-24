@@ -41,6 +41,11 @@
     flex-direction: row;
 }
 
+.dummy {
+  width: 30vw;
+  padding-top: 50px;
+}
+
 .column {
   display: flex;
   flex-direction: column;
