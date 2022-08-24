@@ -47,12 +47,14 @@
   left: 0;
 } */
 
-.sidebar {
+.sideBar {
   width: 25vw;
   padding-top: 50px;
   right: 0;
   display: flex;
   flex-direction: column;
+  border: solid 2px var(--accent);
+  overflow: hidden;
 }
 
 .column {
