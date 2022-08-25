@@ -69,42 +69,42 @@ function createQuestionEl() {
     var questions = [{
       question: "Who played drums on the original recording of Toto's 'Hold the Line'?",
       choices: ['Simon Phillips', 'Steve Gadd', 'Marvin "Smitty" Smith', 'Jeff Porcaro'],
-      // correct: this.choices.indexOf(3),
+      answer: "Jeff Porcaro",
     },
     {
       question: "Who was the very first drummer in the band Joy Division?",
       choices: ['Tony Tabac', 'Stephen Morris', 'Terry Mason', 'Steve Brotherdale'],
-      // correct: this.choices.indexOf(2),
+      answer: "Terry Mason",
     },
     {
       question: "Who played drums on John Coltrane's album 'A Love Supreme'?",
       choices: ['Max Roach', 'Tony Willams', 'Elvin Jones', 'Joe Morello'],
-      // correct: this.choices.indexOf(2),
+      answer: "Elvin Jones",
     },
     {
       question: "Which Motorhead drummer reportedly rode a hotel elevator naked, walking through the busy hotel lobby nude?",
       choices: ['Philthy Animal Taylor', 'Mikkey Dee', 'Lucas Fox', 'Pete Gill'],
-      // correct: this.choices.indexOf(1),
+      answer: "Mikkey Dee",
     },
     {
       question: "This hugely influential jazz drummer was married four times, continued to play drums after losing his hearing, and ultimately died of lung cancer:",
       choices: ['Max Roach', 'Art Blakey', 'Tony Willams', 'Gene Krupa'],
-      // correct: this.choices.indexOf(1),
+      answer: "Art Blakey",
     },
     {
       question: "This drummer has a long history of playing drums for Slayer at times when the band's more well known drummer(s) were not in the band:",
       choices: ['John Tempesta', 'Dave Lombardo', 'John Dette', 'Paul Bostaph'],
-      // correct: this.choices.indexOf(2),
+      answer: "John Dette",
     },
     {
       question: "Who played drums on Meatloaf's hit single 'I'd Do Anything for Love'?",
       choices: ['Max Weinberg', 'John "Willie" Wilcox', 'Liberty DeVitto', 'John Miceli'],
-      // correct: this.choices.indexOf(3),
+      answer: "John Miceli",
     },
     {
       question: "Who was the original drummer in George Clinton's Parliament Funkadelic?",
       choices: ['Jerome "Bigfoot" Brailey', 'Ramon "Tiki" Fulwood', 'Calvin Simon', 'Cordell "Boogie" Mosson'],
-      // correct: this.choices.indexOf(1),
+      answer: 'Ramon "Tiki" Fulwood'
     }
   ];
 
