@@ -140,6 +140,14 @@ function createQuestionEl() {
 
   });
 
+  // function to verify answers
+
+  function verifyAnswer(event) {
+    if $(event.target).text === currentQuestion.answer {
+      $(correct).show();
+    }
+  }
+
 
    
 
