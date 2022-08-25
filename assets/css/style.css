@@ -56,6 +56,11 @@
   flex-direction: column;
   border: solid 2px var(--accent);
   overflow: hidden;
+  text-align: center;
+}
+
+.sideBar > h2 {
+  color: var(--accent);
 }
 
 .column {
