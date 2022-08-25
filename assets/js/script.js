@@ -145,7 +145,16 @@ function createQuestionEl() {
   function verifyAnswer(event) {
     if ($(event.target).text() === currentQuestion.answer ) {
       $(correct).show();
+
+      // pop completed question from array and load next question, hide correct alert
+
     }
+
+    else {
+      $(tryAgain).show();
+    }
+      
+    
   }
 
 
