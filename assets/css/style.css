@@ -104,12 +104,13 @@
   }
 
   #startBtn {
-    background-color: var(--accent);
+    background-color: var(--offWhite);
     color: var(--black);
     text-align: center;
     font-weight: 800;
-    border: var(--black) solid 4px;
+    border: var(--accent) solid 2px;
     opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   
   #startBtn:hover {
