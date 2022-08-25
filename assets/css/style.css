@@ -87,10 +87,12 @@
   .ansList {
     font-weight: bold;
     text-align: center;
+    list-style: none;
   }
 
   .ansList li{
     padding-bottom: 10px;
+
   }
   
   h1:hover {
