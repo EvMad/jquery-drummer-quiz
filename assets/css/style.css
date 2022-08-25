@@ -63,6 +63,7 @@
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
+  padding-right: 50px;
 }
 
   header {
@@ -75,6 +76,7 @@
 
   .card {
     text-align: center;
+    max-width: 75vw;
     border: 5px;
     border-color: var(--accent);
     border-radius: 20%;
