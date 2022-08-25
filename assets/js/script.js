@@ -146,6 +146,7 @@ function createQuestionEl() {
     if ($(event.target).text() === currentQuestion.answer ) {
 
       console.log("Clicked Correct Answer");
+      
       $(correct).show();
 
       // pop completed question from array and load next question, hide correct alert
