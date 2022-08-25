@@ -119,11 +119,12 @@
   
   #startBtn:hover {
     opacity: 1;
-    
+    cursor: pointer;
   }
 
   button:hover {
     color: var(--accent);
+    cursor: pointer;
   }
 
 /* #Q {
