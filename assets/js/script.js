@@ -173,11 +173,13 @@ function createQuestionEl() {
 
       $(correct).show();
 
+      // pop completed question from array and load next question, hide correct alert
+
       currentQuestion.pop();
 
       // var newArray = questions.currentQuestion.pop();
 
-      // pop completed question from array and load next question, hide correct alert
+      
 
     }
 
