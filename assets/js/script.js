@@ -174,7 +174,7 @@ function createQuestionEl() {
 
       // var newArray = questions.currentQuestion.pop();
 
-      
+      return;
 
     }
 
