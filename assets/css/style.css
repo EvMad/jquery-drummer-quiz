@@ -125,6 +125,11 @@
   }
 
 
+  #try {
+    color: var(--accent);
+    font-size: x-large;
+  }
+
 
   @media screen and(min-width: 992px){
     /* .card-body {
