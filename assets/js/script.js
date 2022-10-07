@@ -167,7 +167,10 @@ function createQuestionEl() {
   // function to verify answers
 
   function verifyAnswer(event) {
-    if ($(event.target).text() === currentQuestion.answer ) {
+
+    let choiceClick = $(event.target);
+
+    if ($(choiceClick).text() === currentQuestion.answer ) {
 
       console.log("Clicked Correct Answer");
 
