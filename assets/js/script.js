@@ -168,7 +168,7 @@ function createQuestionEl() {
 
   function verifyAnswer(event) {
 
-    let choiceClick = $(event.target);
+    let choiceClick = $(this);
 
     if ($(choiceClick).text() === currentQuestion.answer ) {
 
