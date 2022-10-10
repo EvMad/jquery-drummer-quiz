@@ -127,7 +127,7 @@ function createQuestionEl() {
 
     //check user choice against correct answer
 
-    $("#answers").on("click", function verifyAnswer(){
+    $("#answers").children().on("click", function verifyAnswer(){
 
 
       let choiceClick = $(this);
