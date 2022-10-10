@@ -127,14 +127,12 @@ function createQuestionEl() {
 
 
 
-
-
   // function to verify answers
 
 
     //check user choice against correct answer
 
-    function verifyAnswer(){
+    $(answers).on("click", function verifyAnswer(){
 
 
       let choiceClick = $(this);
@@ -161,7 +159,7 @@ function createQuestionEl() {
   
 
       
-    };
+    });
 
    
 
