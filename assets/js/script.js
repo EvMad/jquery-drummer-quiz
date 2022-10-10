@@ -121,30 +121,6 @@ function createQuestionEl() {
     $('#A3').text(currentQuestion.choices[2]);
     $('#A4').text(currentQuestion.choices[3]);
 
-    //check user choice against correct answer
-
-    let choiceClick = $(this);
-
-    if ($(choiceClick).text() === currentQuestion.answer ) {
-
-      console.log("Clicked Correct Answer");
-
-      $(correct).show();
-
-      // pop completed question from array and load next question, hide correct alert
-
-      currentQuestion.pop();
-
-      // var newArray = questions.currentQuestion.pop();
-
-      return;
-
-    }
-
-    else {
-      $(tryAgain).show();
-    }
-
 
   };
 
@@ -155,34 +131,40 @@ function createQuestionEl() {
 
   // function to verify answers
 
-  // function verifyAnswer(event) {
 
-  //   let choiceClick = $(this);
+    //check user choice against correct answer
 
-  //   if ($(choiceClick).text() === currentQuestion.answer ) {
+    function verifyAnswer(){
 
-  //     console.log("Clicked Correct Answer");
 
-  //     $(correct).show();
+      let choiceClick = $(this);
 
-  //     // pop completed question from array and load next question, hide correct alert
-
-  //     currentQuestion.pop();
-
-  //     // var newArray = questions.currentQuestion.pop();
+      if ($(choiceClick).text() === currentQuestion.answer ) {
+  
+        console.log("Clicked Correct Answer");
+  
+        $(correct).show();
+  
+        // pop completed question from array and load next question, hide correct alert
+  
+        currentQuestion.pop();
+  
+        // var newArray = questions.currentQuestion.pop();
+  
+        return;
+  
+      }
+  
+      else {
+        $(tryAgain).show();
+      }
+  
 
       
+    };
 
-  //   }
+   
 
-  //   else {
-  //     $(tryAgain).show();
-  //   }
-      
-    
-  // };
-
-  // verifyAnswer();
 
 
    
