@@ -122,12 +122,7 @@ function createQuestionEl() {
     $('#A4').text(currentQuestion.choices[3]);
 
 
-  };
-
-
-
-
-  // function to verify answers
+      // function to verify answers
 
 
     //check user choice against correct answer
@@ -160,6 +155,14 @@ function createQuestionEl() {
 
       
     });
+
+
+
+  };
+
+
+
+
 
    
 
