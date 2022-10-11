@@ -127,36 +127,50 @@ function createQuestionEl() {
 
     //check user choice against correct answer
 
-    $("#answers").children().on("click", function verifyAnswer(){
+    // $("#answers").children().on("click", 
+    
+    function verifyAnswer(){
 
+      let buttons = [ $("#btnA"), $("btnB"), $("btnC"), $("btnD") ];
 
-      let choiceClick = $(this);
-
-      if ($(choiceClick).text() === currentQuestion.answer ) {
-  
-        console.log("Clicked Correct Answer");
-  
+      if ( buttons[i].click() === currentQuestion.answer ) {
+        
         $(correct).show();
-  
-        // pop completed question from array and load next question, hide correct alert
-  
+
         currentQuestion.pop();
-  
-        // var newArray = questions.currentQuestion.pop();
-  
-        return;
-  
       }
+
+
+      // let choiceClick = $(this);
+
+      // if ($(choiceClick).text() === currentQuestion.answer ) {
   
-      else {
+      //   console.log("Clicked Correct Answer");
+  
+      //   $(correct).show();
+  
+      //   // pop completed question from array and load next question, hide correct alert
+  
+      //   currentQuestion.pop();
+  
+      //   // var newArray = questions.currentQuestion.pop();
+  
+      //   return;
+  
+      // }
+  
+      else if ( buttons[i].click() !== currentQuestion.answer ) {
         $(tryAgain).show();
       }
+
+      return;
   
+     
 
-      
-    });
+      // removed )
+    };
 
-
+    verifyAnswer();
 
   };
 
