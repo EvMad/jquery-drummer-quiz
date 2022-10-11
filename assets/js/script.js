@@ -133,7 +133,7 @@ function createQuestionEl() {
 
       let buttons = [ $("#btnA"), $("btnB"), $("btnC"), $("btnD") ];
 
-      if ( buttons[i].click() === currentQuestion.answer ) {
+      if ( buttons[0].click() === currentQuestion.answer ) {
         
         $(correct).show();
 
@@ -159,7 +159,7 @@ function createQuestionEl() {
   
       // }
   
-      else if ( buttons[i].click() !== currentQuestion.answer ) {
+      else if ( buttons[0].click() !== currentQuestion.answer ) {
         $(tryAgain).show();
       }
 
